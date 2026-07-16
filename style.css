@@ -214,7 +214,42 @@ font-size:18px;
     transform:translateY(-6px);
     box-shadow:0 10px 25px rgba(0,0,0,.18);
 }a
+.logo img{
+    width:80px;
+    height:auto;
+    border-radius:10px;
+}
 
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    padding:15px 30px;
+}
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.btn,.btn2{
+    font-size:18px;
+    padding:14px 30px;
+    border-radius:30px;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    transition:.3s;
+}
+
+html{
+    scroll-behavior:smooth;
+}
 
 
 
