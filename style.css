@@ -250,7 +250,30 @@ header{
 html{
     scroll-behavior:smooth;
 }
+/* Floating WhatsApp Button */
+.floating-whatsapp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background: #25D366;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    z-index: 9999;
+    transition: 0.3s;
+}
 
+.floating-whatsapp:hover{
+    transform: scale(1.1);
+    background: #1ebe5d;
+}w
 
 
 
