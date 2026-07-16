@@ -43,30 +43,7 @@ nav a:hover{
 color:#7ee7ff;
 }
 
-.hero{
-height:100vh;
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
-text-align:center;
-color:#fff;
-background:
-linear-gradient(rgba(0,70,130,.55),rgba(0,70,130,.55)),
-url("https://images.unsplash.com/photo-1502741338009-cac2772e18bc");
-background-size:cover;
-background-position:center;
-}
 
-.hero h1{
-font-size:60px;
-margin-bottom:20px;
-}
-
-.hero p{
-font-size:22px;
-margin-bottom:30px;
-}
 
 .btn,.btn2{
 display:inline-block;
@@ -78,19 +55,7 @@ font-weight:bold;
 transition:.3s;
 }
 
-.btn{
-background:#00aaff;
-color:#fff;
-}
 
-.btn2{
-background:#25D366;
-color:#fff;
-}
-
-.btn:hover,.btn2:hover{
-transform:translateY(-4px);
-}
 
 section{
 padding:80px 20px;
