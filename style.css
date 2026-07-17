@@ -158,13 +158,13 @@ font-size:18px;
     align-items:center;
     text-align:center;
     color:#fff;
-background:
-linear-gradient(rgba(0,40,80,.55), rgba(0,40,80,.55)),
-url("images/hero/file_000000007600720aaa6ef159530d0865a.png") center/cover no-repeat;    
-    
-    
+    background:
+    linear-gradient(rgba(0,40,80,.55), rgba(0,40,80,.55)),
+    url("images/hero/file_000000007600720aaa6ef159530d0865a.png");
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
 }
-
 .hero h1{
     font-size:56px;
     font-weight:700;
