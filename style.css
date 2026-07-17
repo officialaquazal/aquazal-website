@@ -54,7 +54,27 @@ text-decoration:none;
 font-weight:bold;
 transition:.3s;
 }
+.btn{
+    background:#1ea7ff;
+    color:#fff;
+    box-shadow:0 4px 12px rgba(30,167,255,.35);
+}
 
+.btn:hover{
+    background:#0b8ce6;
+    color:#fff;
+}
+
+.btn2{
+    background:#25D366;
+    color:#fff;
+    box-shadow:0 4px 12px rgba(37,211,102,.35);
+}
+
+.btn2:hover{
+    background:#1ebe5d;
+    color:#fff;
+}
 
 
 section{
